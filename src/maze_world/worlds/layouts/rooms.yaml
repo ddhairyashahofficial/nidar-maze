@@ -1,0 +1,60 @@
+arena:
+  width: 15
+  height: 15
+  grid_size: 1.0
+
+rooms:
+
+  - id: room_01
+    x: -6
+    y: 5
+    width: 2
+    height: 2
+    door:
+      side: south
+      offset: 0.5
+
+  - id: room_02
+    x: 0
+    y: 5
+    width: 2
+    height: 2
+    door:
+      side: south
+      offset: 0.5
+
+  - id: room_03
+    x: 5
+    y: 5
+    width: 2
+    height: 2
+    door:
+      side: south
+      offset: 0.5
+
+  - id: room_04
+    x: -5
+    y: -2
+    width: 2
+    height: 2
+    door:
+      side: east
+      offset: 0.5
+
+  - id: room_05
+    x: 2
+    y: -1
+    width: 2
+    height: 2
+    door:
+      side: north
+      offset: 0.5
+
+  - id: room_06
+    x: 4
+    y: -5
+    width: 2
+    height: 2
+    door:
+      side: west
+      offset: 0.5
