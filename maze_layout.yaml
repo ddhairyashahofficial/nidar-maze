@@ -1,0 +1,41 @@
+# NIDAR AirMouse - Layer 1 structure
+# Generated deterministic 14x14 maze.
+arena:
+  width_m: 15.0
+  length_m: 15.0
+  floor_thickness_m: 0.05
+
+walls:
+  thickness_m: 0.05
+  height_m: 2.5
+  clear_corridor_m: 1.0
+  structural_module_m: 1.05
+
+grid:
+  cells_x: 14
+  cells_y: 14
+  note: "Each adjacent cell-to-cell passage has 1.00 m clear width."
+
+entry_exit:
+  cell: [0, 0]
+  side: south
+  width_m: 1.0
+  note: "The same opening is used for entry and exit."
+
+rooms:
+  - id: room_01
+    origin_cell: [1, 1]
+    nominal_clear_size_m: [2.0, 2.0]
+    construction: "2x2 logical cells; verify physical clear size after final wall-panel convention."
+  - id: room_02
+    origin_cell: [4, 8]
+    nominal_clear_size_m: [2.0, 2.0]
+    construction: "2x2 logical cells; verify physical clear size after final wall-panel convention."
+  - id: room_03
+    origin_cell: [9, 3]
+    nominal_clear_size_m: [2.0, 2.0]
+    construction: "2x2 logical cells; verify physical clear size after final wall-panel convention."
+  - id: room_04
+    origin_cell: [10, 10]
+    nominal_clear_size_m: [2.0, 2.0]
+    construction: "2x2 logical cells; verify physical clear size after final wall-panel convention."
